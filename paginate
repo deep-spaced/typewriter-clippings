@@ -1,0 +1,4 @@
+#INDENT#
+<% if @posts.total_pages > 1 %>
+<p>View <%= will_paginate @posts, :previous_label => "newer", :next_label => "older", :separator => " or ", :page_links => false, :container => false %> posts.</p>
+<% end %>

@@ -1,0 +1,18 @@
+#INDENT#
+<%
+if is_mobile?
+	'Mobile, does not include iPad.'
+elsif is_mobile?(ipad=true)
+	'Mobile including iPad.'
+elsif is_ipad?
+	'only iPad'
+elsif is_iOS3?
+	'ios3'
+elsif is_iOS5?
+	'ios5'
+elsif is_android?
+	'android'
+else
+	'fallback!'
+end
+%>

@@ -1,0 +1,1 @@
+<%= truncate(#SELSTART#@post.body#SELEND#, :length => 180) %>...<%= link_to "more »", blog_path(#SELSTART#@post#SELEND#), :class => "nowrap" %>

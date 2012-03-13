@@ -1,0 +1,4 @@
+#INDENT#
+<% current_account.pages.roots.each do |page| %>
+	<%= link_to_path page.title, page %>
+<% end %>

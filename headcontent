@@ -1,0 +1,1 @@
+#INDENT#<%= page_title @page, "Ronningen Design is a web firm in Western North Carolina" %><%= meta_tags(:html5 => true) %><%= description(@page) %><%= key_phrases(@page) %><%= render :partial => '/shared/scriptsStylesMeta' %>

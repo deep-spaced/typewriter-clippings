@@ -1,0 +1,3 @@
+#INDENT#
+<%= auto_discovery_link_tag(:atom, "/blog/feed.atom") %>
+<%= auto_discovery_link_tag(:rss, "/blog/feed.rss") %>

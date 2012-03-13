@@ -1,0 +1,1 @@
+link_to_path("#SELSTART#link title#SELEND#", #SELSTART#@page#SELEND#, #SELSTART#html_options = {}#SELEND#)

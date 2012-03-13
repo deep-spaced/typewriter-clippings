@@ -1,0 +1,9 @@
+#INDENT#
+<% content_for :archives do %>
+	<% months = current_account.posts.find_months(current_account) %>
+	<!-- Cached archives. -->
+	<ul>
+		<li>Archives</li>
+		<%= render :partial => 'archives', :collection => months, :as => :month %>
+	</ul>
+<% end %>

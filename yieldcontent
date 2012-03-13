@@ -1,0 +1,4 @@
+#INDENT#
+<% content_for #SELSTART#:head#SELEND# do %>
+	#SELSTART#content #SELEND#
+<% end %>

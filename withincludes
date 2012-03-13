@@ -1,0 +1,1 @@
+<%= with_includes( #SELSTART#@page.body#SELEND# ) %>
