@@ -1,0 +1,1 @@
+<%= theme_javascript_include_tag '#SELSTART#name_of_js_file#SELEND#' %>
